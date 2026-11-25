@@ -1,0 +1,12 @@
+process.env.NODE_ENV = 'test';
+process.env.SESSION_SECRET = 'test-session-secret-at-least-32-characters-long';
+process.env.ENCRYPTION_KEY = '0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef';
+process.env.GOOGLE_CLIENT_ID = 'test-google-client-id';
+process.env.GOOGLE_CLIENT_SECRET = 'test-google-client-secret';
+process.env.SLACK_CLIENT_ID = 'test-slack-client-id';
+process.env.SLACK_CLIENT_SECRET = 'test-slack-client-secret';
+process.env.WORKER_CONCURRENCY = '5';
+process.env.MAX_RETRY_ATTEMPTS = '3';
+process.env.RETRY_DELAY = '100';
+process.env.MIN_EMAIL_DELAY_MS = '2000';
+process.env.MAX_EMAILS_PER_HOUR_PER_SENDER = '100';
